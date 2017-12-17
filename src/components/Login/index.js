@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Grid } from 'react-bootstrap'
 import { string } from 'prop-types'
 
 export default class LoginComponent extends Component {
@@ -12,9 +13,9 @@ export default class LoginComponent extends Component {
     } = this.props
 
     return (
-      <div>
+      <Grid id="login">
         <h1>{username}</h1>
-      </div>
+      </Grid>
     )
   }
 }

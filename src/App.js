@@ -3,6 +3,7 @@ import  React, { Component } from 'react'
 import Routes from './Routes'
 import logo from './logo.svg'
 
+import 'bootstrap/dist/css/bootstrap.css';
 import './styles/App.css'
 
 export default class App extends Component {
