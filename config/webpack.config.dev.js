@@ -139,6 +139,11 @@ module.exports = {
               name: 'static/media/[name].[hash:8].[ext]',
             },
           },
+          {
+            test: /\.scss$/,
+            include: paths.appSrc,
+            loader: 'style-loader!css-loader!sass-loader'
+          },
           // Process JS with Babel.
           {
             test: /\.(js|jsx|mjs)$/,
