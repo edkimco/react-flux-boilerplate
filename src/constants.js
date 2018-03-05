@@ -1,2 +1,2 @@
-// USERS
-export const GET_USERS = 'GET_USERS'
+// Auth
+export const LOGIN = 'LOGIN'

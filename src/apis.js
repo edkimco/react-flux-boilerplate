@@ -1,12 +1,12 @@
-import { api } from './config'
+import config from './config'
 
-const API_PATH = `${api.host}:${api.port}/${api.prefix}`
+const API_PATH = `${config.api.host}:${config.api.port}/${config.api.prefix}`
 
-export default {
-  USERS: {
-    GET_USERS: {
-      METHOD: 'GET',
-      PATH: () => `${API_PATH}/users`
+export const normal = {
+  AUTH: {
+    LOGIN: {
+      method: 'POST',
+      path: () => `${API_PATH}/v1.0/login`
     }
   }
-};
+}

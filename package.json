@@ -39,7 +39,7 @@
     "postcss-loader": "2.0.8",
     "prettier": "^1.10.2",
     "promise": "8.0.1",
-    "prop-types": "^15.6.0",
+    "prop-types": "^15.6.1",
     "raf": "3.4.0",
     "react": "^16.2.0",
     "react-bootstrap": "^0.31.5",
@@ -61,7 +61,7 @@
   },
   "lint-staged": {
     "src/**/*.js": [
-      "prettier --trailing-comma all --no-semi --single-quote --write",
+      "prettier --no-semi --single-quote --write --prose-wrap never",
       "git add"
     ]
   },
