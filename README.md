@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+Read this in other languages: [English](README.md), [한국어](README.ko.md)
+
 ## Key Features
 - [React Router v4](https://github.com/ReactTraining/react-router)
 - [Flux Pattern](https://facebook.github.io/flux/)
@@ -12,7 +14,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Getting Started
 
-### Devlopment
+### Development
 ```sh
 yarn
 
