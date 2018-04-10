@@ -1,6 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+본 프로젝트는 [Create React App](https://github.com/facebookincubator/create-react-app)을 기반으로 만들었습니다.
 
-## Key Features
+## 핵심 기능
 - [React Router v4](https://github.com/ReactTraining/react-router)
 - [Flux Pattern](https://facebook.github.io/flux/)
 - [React Loadable](https://github.com/thejameskyle/react-loadable)
