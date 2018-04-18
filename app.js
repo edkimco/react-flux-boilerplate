@@ -4,7 +4,7 @@ const logger = require('morgan')
 const fs = require('fs')
 const app = express()
 
-const config = require('./config')
+const config = require('./serve.config')
 const env = process.env['NODE_ENV'] || 'development'
 
 app.use(logger('common'))
@@ -32,7 +32,7 @@ app.use(function (req, res, next) {
   next(err)
 })
 
-const PORT = process.env.PORT || 8044
+const PORT = process.env.PORT || config.port
 app.listen(PORT)
 
 if (env === 'production') {
